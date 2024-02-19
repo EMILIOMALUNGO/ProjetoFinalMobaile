@@ -7,7 +7,7 @@ import Routes from './src/Routes/routes';
 export default function App() {
   return (
     <NavigationContainer>
-  <StatusBar backgroundColor='#FF7E01' barStyle='light-content'   translucent={false} />
+  <StatusBar  style={styles.container11}   />
     <Routes />
      
     </NavigationContainer>
@@ -15,11 +15,12 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor:'#FF7E01',
-    barStyle:'light-content',
-    
-   
+  container11: {
+     flex:1,
+     background: '#FC1739',
   },
-});
+
+
+ 
+
+})

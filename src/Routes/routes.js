@@ -5,7 +5,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 
 
-
+import Inicio from "../Pages/Inicio/Index";
 import Login from "../Pages/Login";
 import Cadastro from "../Pages/Cadastro";
 import RecuperarSenha from "../Pages/RecuperarSenha";
@@ -16,11 +16,10 @@ export default function Routes(){
 
     return(
         <Tab.Navigator>
-
+             <Tab.Screen name="Inicio" component={Inicio} options={{ headerShown: false}} />
             <Tab.Screen name="Login" component={Login} options={{ headerShown: false}} />
-             <Tab.Screen name="Cadastro" component={Cadastro} />
-             <Tab.Screen name="RecuperarSenha" component={RecuperarSenha} />
-
+             <Tab.Screen name="Cadastro" component={Cadastro}options={{ headerShown: false}} />
+             <Tab.Screen name="RecuperarSenha" component={RecuperarSenha} options={{ headerShown: false}}/>
         </Tab.Navigator>
    
      
