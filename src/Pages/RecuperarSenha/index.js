@@ -2,9 +2,15 @@ import React from "react";
 import { SafeAreaView, StyleSheet, Text, TextInput, View,TouchableOpacity } from 'react-native'
 
 
+import { useNavigation } from "@react-navigation/native";
 
 
-export default function RecuperarSenha() {
+
+
+
+    
+    export default function RecuperarSenha() {
+    const navigation = useNavigation()
 
     return (
         <SafeAreaView style={styles.container}>
