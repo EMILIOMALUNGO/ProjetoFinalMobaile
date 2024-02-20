@@ -54,7 +54,7 @@ export default function Cadastro() {
                 </View>
                 <View>
                     <TouchableOpacity onPress={() => navigation.navigate("Login")}>
-                        <Text style={styles.texto2}>Login</Text>
+                        <Text style={styles.testo}>Login</Text>
                     </TouchableOpacity>
                 </View>
                 
@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
         marginTop:-10,
         width: "100%",
         height: 300,
-        backgroundColor: '#BEF72D',
+        backgroundColor: '#E9F556',
     },
     container11:{
         flex:2,

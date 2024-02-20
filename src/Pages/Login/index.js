@@ -27,7 +27,7 @@ export default function Login() {
                     <Text style={styles.tela}>Esqueceu a Senha?</Text>
                 </TouchableOpacity>
 
-            <TouchableOpacity onPress={() => navigation.navigate("Cadastro") }>
+            <TouchableOpacity onPress={() => navigation.navigate("DashBoard") }>
                     <Text style={styles.tela2} placeholderTextColor='#fff'>Entrar</Text>
                 </TouchableOpacity>
               
@@ -39,7 +39,7 @@ export default function Login() {
 const styles = StyleSheet.create({
     container: {
         flex:2,
-        backgroundColor: '#BEF72D',
+        backgroundColor: '#E9F556',
     },
     container0:{
         marginTop:150,

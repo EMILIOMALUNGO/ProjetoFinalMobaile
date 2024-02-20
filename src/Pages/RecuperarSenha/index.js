@@ -31,7 +31,7 @@ import { useNavigation } from "@react-navigation/native";
             </View>
             </View>
             <View style={styles.container10}>
-            <TouchableOpacity onPress={() => navigation.navigate("Cadastro") }>
+            <TouchableOpacity onPress={() => navigation.navigate("Login") }>
                     <Text style={styles.tela3} placeholderTextColor='#fff'>Cadastrar</Text>
                 </TouchableOpacity>
 
@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
     
         container: {
            flex:2,
-            backgroundColor: '#BEF72D',
+            backgroundColor: '#E9F556',
         },
     container6:{
         marginTop:-20,
@@ -53,10 +53,10 @@ const styles = StyleSheet.create({
         height: 300,
         borderBottomStartRadius:100,
         borderBottomRightRadius: 100,
-        backgroundColor: '#2D77F7'
+        backgroundColor: '#9B52F2',
     },
     container7:{
-        marginTop:210,
+        marginTop:150,
         alignItems:'center',
         textAlign:'center',
         margin:5
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
     container9:{
             padding:15,
             borderEndWidth:1,
-            backgroundColor: '#2D77F7',
+            backgroundColor: '#000000',
             borderRadius:20,
             marginStart:10,
             marginRight:10,
@@ -94,7 +94,7 @@ const styles = StyleSheet.create({
          padding:15,
         borderWidth: 1,
         color:'#ffffff',
-        backgroundColor: '#2D77F7',
+        backgroundColor: '#000000',
         borderRadius:3,
         textAlign:"center",
     },

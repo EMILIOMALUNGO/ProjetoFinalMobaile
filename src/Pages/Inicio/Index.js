@@ -16,7 +16,7 @@ export default function Inicio() {
          <Image style={styles.Image1} source={require("../../../assets/mundo.jpg")} />
          </View>
              <View style={styles.container3}>
-                <Text style={styles.texto0} >QUADRO DE NUNCIO</Text>
+                <Text style={styles.texto0} >QUADRO DE ANUNCIO</Text>
              </View>
              <Text style={styles.texto1}>Tudo sobre o seu mundo de quadro de anuncio</Text>
 
@@ -40,7 +40,7 @@ export default function Inicio() {
 const styles = StyleSheet.create({
     container: {
         flex:2,
-        backgroundColor: '#BEF72D',
+        backgroundColor: '#E9F556',
     },
     Image:{
         marginTop:150,
